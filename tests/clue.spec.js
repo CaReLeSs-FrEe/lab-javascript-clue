@@ -183,6 +183,7 @@ describe('Function "revealMystery" - Reveal the mystery', () => {
       weapon: { name: 'abd' },
       room: { name: 'abb' }
     });
+    console.log(message)
     expect(typeof message).toEqual('string');
   });
 
@@ -192,6 +193,7 @@ describe('Function "revealMystery" - Reveal the mystery', () => {
       weapon: { name: 'poison' },
       room: { name: 'Billiard Room' }
     });
+    console.log(message)
     expect(message).toEqual(
       'Victor Plum killed Mr. Boddy using the poison in the Billiard Room!'
     );
